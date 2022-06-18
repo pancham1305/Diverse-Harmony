@@ -1,0 +1,25 @@
+#Back {
+    background-image: url('../images/');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    animation: slide 20s infinite;
+}
+
+@keyframes slide {
+    25% {
+        background-image: url(./Images/1v2.jpeg);
+    }
+
+    50% {
+        background-image: url(./Images/HandloomV3.jpg);
+    }
+
+    75% {
+        background-image: url(./Images/Hats.jpeg);
+    }
+
+    100% {
+        background-image: url(./Images/test.jpeg);
+    }
+}
