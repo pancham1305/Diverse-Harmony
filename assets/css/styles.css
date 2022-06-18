@@ -1,25 +1,28 @@
-#Back {
-    background-image: url('../images/');
+body{
+    margin: 0;
+    padding: 0;
+}
+/* #Back {
+    background-image: url('../images/image0.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     animation: slide 20s infinite;
 }
-
 @keyframes slide {
     25% {
-        background-image: url(./Images/1v2.jpeg);
+        background-image: url(../images/image1.jpg);
     }
 
     50% {
-        background-image: url(./Images/HandloomV3.jpg);
+        background-image: url(../images/image2.png);
     }
 
     75% {
-        background-image: url(./Images/Hats.jpeg);
+        background-image: url(../images/image3.jpg);
     }
 
     100% {
-        background-image: url(./Images/test.jpeg);
+        background-image: url(../images/image4.jpg);
     }
-}
+} */
