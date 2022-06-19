@@ -1,6 +1,8 @@
 const express = require("express");
 const app = express();
+const https = require("https");
 const bp = require("body-parser");
+const fs = require("fs");
 app.set("view engine", "ejs");
 app.use(bp.urlencoded({ extended: true }));
 
@@ -19,7 +21,14 @@ app.get("/Food", (req, res) => {
 app.get("/Festivals", (req, res) => {
   res.render(__dirname + "/public/festivals.ejs");
 });
+app.get("*", (req, res) => {
+  res.sendFile(__dirname + "/assets/images/404.jpg");
+});
 
-app.listen(process.env.PORT || 7500, () => {
-  console.log("Server is listening at 7500");
+app.listen(process.env.PORT || 7500, (err) => {
+  if (err) {
+    console.error("Server Problems!");
+  } else {
+    console.log("Server is listening at 7500");
+  }
 });

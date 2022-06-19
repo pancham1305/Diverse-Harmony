@@ -34,9 +34,10 @@ h1 {
 #border {
   margin-top: -20px;
   height: 90px;
-  width: 400px;
+  width: 600px;
   display: flex;
 }
+
 #div_bro {
   margin-top: -30px;
   display: flex;
@@ -267,4 +268,29 @@ border-radius: 0 0 10% 10% ;
   height: 200px;
   width: 200px;
   border-radius: 50%;
+}
+
+#home {
+  color: white !important;
+}
+#text {
+  text-align: center;
+}
+
+.cat_back{
+  -webkit-box-shadow: 8px 8px 14px rgb(212, 19, 48);
+
+  box-shadow: 8px 8px 14px  rgb(212, 19, 48);
+  border-top:    5px solid  rgb(212, 19, 48);
+border-right:  0px;
+/* border-bottom: 2px solid rgb(212, 19, 48); */
+border-left:   0px;
+margin-top: -28px;
+padding-bottom: 10px;
+} 
+.special_writting{
+
+  font-size: 60px;
+  font-weight: 600;
+  color:rgba(203, 43, 68) ;
 }

@@ -17,6 +17,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="../css/festivals.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
   </head>
   <body>
     <div <!-- navbar -->
@@ -68,8 +69,19 @@
       <h1>Festivals</h1>
       <br />
       <br />
+      
+  
       <div id="div_bro"><img id="border" src="../images/border.png" /></div>
-       <div
+      <div id="text">
+        <h4>
+          India is a multi-cultural country, and it is reflected in the
+          Festivals of India: Festivals of India is about various social,
+          religious, and national festivals celebrated in different parts of
+          India. India has been rightly described as a sub-continent and of
+          its major festivals, many are region-specific festivals too.
+        </h4>
+      </div>
+      <div
         class="project_container projects"
         style="
           background-image: linear-gradient(
@@ -80,10 +92,10 @@
           margin-left: 195px;
         "
       >
-        <div class="proj_box"><h2>Diwali</h2>
-        </div>
-        <div class="proj_box"><h2>Eid-ul Fitar</h2></div>
-        <div class="proj_box"><h2>Christmas</h2></div>
+      <div><div class="proj_box" style="display:flex; justify-content: center; position: relative; "> <img src="../images/diwali new.jpg" style="height: 275px; width: 268px; inset: 4px; z-index:1 ; position: relative;text-align: button; border-radius: 25px; left: -2px ;"> <h2></h2></div><h1>DIWALI</h1></div>
+      <div><div class="proj_box" style="display:flex; justify-content: center; position: relative; "> <img src="../images/Eid.png" style="height: 275px; width: 268px; inset: 4px; z-index:1 ; position: relative;text-align: button; border-radius: 25px; left: -2px ;"> <h2></h2></div><h1>EID</h1></div>
+      <div><div class="proj_box" style="display:flex; justify-content: center; position: relative; "> <img src="../images/independence day.jpg" style="height: 275px; width: 268px; inset: 4px; z-index:1 ; position: relative;text-align: button; border-radius: 25px; left: -2px ;"> <h2></h2></div><h1>INDEPENDENCE DAY</h1></div>
+
       </div>
       <br />
       <br />
@@ -98,14 +110,13 @@
           margin-left: 195px;
         "
       >
-        <div class="proj_box"><h2>Independence Day</h2></div>
-        <div class="proj_box"><h2>Republic Day</h2></div>
-        <div class="proj_box"><h2>Holi</h2></div>
+      <div> <div class="proj_box" style="display:flex; justify-content: center; position: relative; "> <img src="../images/chritmas new.jpg" style="height: 275px; width: 275px; inset: 4px; z-index:1 ; position: relative;text-align: button; border-radius: 25px; left: -2px ;"> <h2></h2></div><h1>CHRISTMAS </h1></div>
+      <div><div class="proj_box" style="display:flex; justify-content: center; position: relative; "> <img src="../images/Holi.jpg" style="height: 275px; width: 270px; inset: 4px; z-index:1 ; position: relative;text-align: button; border-radius: 25px ; "> <h2></h2></div><h1>HOLI</h1></div>
+        
+      <div><div class="proj_box" style="display:flex; justify-content: center; position: relative; margin-right: 95px;" > <img src="../images/republic.jpg" style="height: 275px; width: 268px; inset: 4px; z-index:1 ; position: relative;text-align: button; border-radius: 25px; left: -2px ; "> <h2></h2></div><h1>REPUBLIC DAY</h1></div>
+
       </div>
     </div>
-  </body>
-</html>
-
-    </div>
+<%-include('footer.ejs') %>
   </body>
 </html>

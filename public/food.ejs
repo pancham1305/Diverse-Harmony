@@ -17,6 +17,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="../css/festivals.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
   </head>
   <body>
     <!-- navbar -->
@@ -66,8 +67,17 @@
       <h1>Food</h1>
       <br />
       <br />
-      <div id="div_bro"><img id="border" src="../images/border.png" /></div>
 
+      <div id="div_bro"><img id="border" src="../images/border.png" /></div>
+      <div id="text">
+        <h4>
+          Indian cuisine consists of a variety of regional and traditional
+          cuisines native to the Indian subcontinent. Given the diversity in
+          soil, climate, culture, ethnic groups, and occupations, these cuisines
+          vary substantially and use locally available spices, herbs,
+          vegetables, and fruits.
+        </h4>
+      </div>
       <div
         class="project_container projects"
         style="
@@ -79,9 +89,72 @@
           margin-left: 195px;
         "
       >
-        <div class="proj_box"><h2></h2></div>
-        <div class="proj_box"><h2></h2></div>
-        <div class="proj_box"><h2></h2></div>
+        <div>
+          <div
+            class="proj_box"
+            style="display: flex; justify-content: center; position: relative"
+          >
+            <img
+              src="../images/rajasthani.jpg"
+              style="
+                height: 275px;
+                width: 268px;
+                inset: 4px;
+                z-index: 1;
+                position: relative;
+                text-align: button;
+                border-radius: 25px;
+                left: -2px;
+              "
+            />
+            <h2></h2>
+          </div>
+          <h1>RAJASTHAN FOOD</h1>
+        </div>
+        <div>
+          <div
+            class="proj_box"
+            style="display: flex; justify-content: center; position: relative"
+          >
+            <img
+              src="../images/Bengali.jpg"
+              style="
+                height: 275px;
+                width: 268px;
+                inset: 4px;
+                z-index: 1;
+                position: relative;
+                text-align: button;
+                border-radius: 25px;
+                left: -2px;
+              "
+            />
+            <h2></h2>
+          </div>
+          <h1>BANGALI FOOD</h1>
+        </div>
+        <div>
+          <div
+            class="proj_box"
+            style="display: flex; justify-content: center; position: relative"
+          >
+            <img
+              src="../images/bihari.jpg"
+              style="
+                height: 275px;
+                width: 268px;
+                inset: 4px;
+                z-index: 1;
+                position: relative;
+                text-align: button;
+                border-radius: 25px;
+                left: -2px;
+              "
+            />
+            <h2></h2>
+          </div>
+          <h1>BIHARI FOOD</h1>
+        </div>
       </div>
       <br />
       <br />
@@ -96,10 +169,74 @@
           margin-left: 195px;
         "
       >
-        <div class="proj_box"><h2>ABC</h2></div>
-        <div class="proj_box"><h2>DEF</h2></div>
-        <div class="proj_box"><h2>GHI</h2></div>
+        <div>
+          <div
+            class="proj_box"
+            style="display: flex; justify-content: center; position: relative"
+          >
+            <img
+              src="../images/punjabi.png"
+              style="
+                height: 275px;
+                width: 268px;
+                inset: 4px;
+                z-index: 1;
+                position: relative;
+                text-align: button;
+                border-radius: 25px;
+                left: -2px;
+              "
+            />
+            <h2></h2>
+          </div>
+          <h1>PUNJABI FOOD</h1>
+        </div>
+        <div>
+          <div
+            class="proj_box"
+            style="display: flex; justify-content: center; position: relative"
+          >
+            <img
+              src="../images/gujrati 1.jpg"
+              style="
+                height: 275px;
+                width: 268px;
+                inset: 4px;
+                z-index: 1;
+                position: relative;
+                text-align: button;
+                border-radius: 25px;
+                left: -2px;
+              "
+            />
+            <h2></h2>
+          </div>
+          <h1>GUJRATI FOOD</h1>
+        </div>
+        <div>
+          <div
+            class="proj_box"
+            style="display: flex; justify-content: center; position: relative"
+          >
+            <img
+              src="../images/tamil.jpg"
+              style="
+                height: 275px;
+                width: 268px;
+                inset: 4px;
+                z-index: 1;
+                position: relative;
+                text-align: button;
+                border-radius: 25px;
+                left: -2px;
+              "
+            />
+            <h2></h2>
+          </div>
+          <h1>TAMIL FOOD</h1>
+        </div>
       </div>
     </div>
+    <%-include('footer.ejs') %>
   </body>
 </html>
