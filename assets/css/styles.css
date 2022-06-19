@@ -171,7 +171,7 @@ p {
 #about_section {
   position: relative;
 
-  margin-top: 100px;
+  margin-top: 10px;
   /* border: 2px solid red; */
   background-image: linear-gradient(
       rgba(225, 225, 225, 0.5),
@@ -285,7 +285,7 @@ border-radius: 0 0 10% 10% ;
 border-right:  0px;
 /* border-bottom: 2px solid rgb(212, 19, 48); */
 border-left:   0px;
-margin-top: -28px;
+margin-top: -32px;
 padding-bottom: 10px;
 } 
 .special_writting{
